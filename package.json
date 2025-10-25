@@ -1,0 +1,22 @@
+{
+  "name": "clicrm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "commander": "^14.0.2",
+    "js-yaml": "^4.1.0",
+    "playwright": "^1.56.1"
+  }
+}
