@@ -1,0 +1,10 @@
+{
+    "imports": {
+      "cliffy/command": "https://deno.land/x/cliffy@v1.0.0-rc.4/command/mod.ts",
+      "cliffy/prompt": "https://deno.land/x/cliffy@v1.0.0-rc.4/prompt/mod.ts"
+    },
+    "compilerOptions": {
+      "lib": ["deno.ns", "deno.console", "esnext"]
+    }
+  }
+  

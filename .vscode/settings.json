@@ -1,5 +1,13 @@
 {
+  // enable Deno tooling
   "deno.enable": true,
   "deno.unstable": true,
   "deno.lint": true,
+
+  // point Deno to your project config (important!)
+  "deno.config": "./deno.json",
+
+  // make sure VS Code TypeScript service doesn’t fight Deno
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false
 }
