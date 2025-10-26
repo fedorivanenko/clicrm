@@ -1,0 +1,19 @@
+{
+  "name": "clicrm",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "node dist/bin.js start",
+    "dev": "nodemon --watch src --ext ts --no-stdin --exec \"tsx src/bin.ts start\""
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.7",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.5"
+  }
+}
